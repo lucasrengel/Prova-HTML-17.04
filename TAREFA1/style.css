@@ -2,61 +2,19 @@ body{
   font-family: 'Montserrat';
   font-size: 20px;
   font-weight: 400;
-  background-color: rgb(192, 253, 233);
+}
+.colunas{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
 }
-.card{
-  background-color: white;
-  width: 500px;
-  height: 300px;
-  justify-content: flex-start;
-  border-radius: 20px;
-  border: solid 1px;
-}
-.input{
-  padding: 40px;
-}
-.coisas{
-  display: flex; 
-  margin-left: 40px;
-  font-size: 15px;
-  align-items: center;
-}
-.esqueceu{
-  margin-left: 100px;
-}
-input{
-  font-family: 'Montserrat';
-  width: 400px;
-  height: 25px;
-  margin-top: 2px;
-  font-size: 15px;
-}
-.lembrar{
-  width: 20px;
-  height: 20px;
-}
-.botao{
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-button{
-  width: 300px;
-  height: 50px;
-  background-color: rgb(116, 176, 255);
-  border: none;
+.coluna1{
+  margin-right: 20px;
+  width: 70%;
+  background-color: blue;
   color: white;
-  font-family: 'Montserrat';
-  font-size: 20px;
-  border-radius: 5px;
 }
-.registrar{
-  display: flex;
-  justify-content: center;
-  font-size: 15px;
-  margin-top: 10px;
+.coluna2{
+  width: 30%;
+  margin-left: 20px;
+  background-color: yellow;
+  color: black;
 }
